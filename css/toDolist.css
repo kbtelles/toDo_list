@@ -1,0 +1,21 @@
+.root{ /*Al principio siempre se coloca el COMO SE VERÁ*/
+
+    /*APARIENCIA*/
+    max-width: 40rem;
+    height: 100vb;
+    border: 1px solid black;
+    border-radius: 5px; /*El radio siempre es recomendable usarlo en px*/
+
+
+    /*POSICIÓN Y POSICIÓN DE HIJOS*/
+    margin: auto;
+    margin-top: 1rem;
+    padding: 1rem;
+
+    /*COMPORTAMIENTO*/
+}
+
+.root > h1 { /*Especificamente el hijo que esta adentro y no los demas h1 (nietos ni bisnietos)*/
+    font-size:3rem;
+    text-align: center;
+}
