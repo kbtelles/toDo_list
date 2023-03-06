@@ -1,0 +1,50 @@
+.root{ /*Al principio siempre se coloca el COMO SE VERÁ*/
+
+    /*APARIENCIA*/
+    max-width: 40rem;
+    height: 100vb;
+    border: 1px solid black;
+    /*border-radius: 5px; /*El radio siempre es recomendable usarlo en px*/
+
+
+    /*POSICIÓN Y POSICIÓN DE HIJOS*/
+    margin: auto;
+    padding: 1rem;
+    padding-top: 2rem;
+
+    /*COMPORTAMIENTO*/
+}
+
+.root > h1 { /*Especificamente el hijo que esta adentro y no los demas h1 (nietos ni bisnietos)*/
+    font-size:3rem;
+    text-align: center;
+    color:var(--color-texto);
+    margin-bottom: 2rem;
+}
+
+.bt-todo {
+    border: 0; /*recetear */
+    background-color: rgb(255, 153, 0);
+    width: 6rem;
+    height: 6rem;
+    border-radius: 100%;
+
+
+    position: absolute;
+    right: 2.5rem;
+    bottom: 2.5rem;
+
+    /* Sirve mas para compu cursor: pointer; */
+
+/*Centrar los hijos (p) es un hijo*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bt-todo > span{
+    font-size: 5rem;
+    font-weight: 600;
+    color: #fff;
+    
+}

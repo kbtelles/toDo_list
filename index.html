@@ -8,8 +8,11 @@
 
     <!--Sección de las hojas de diseño-->
     <link rel="stylesheet" href="./css/config.css">
-    <link rel="stylesheet" href="./css/toDolist.css">
+    <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/todo_item.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300;1,400;1,600&display=swap" rel="stylesheet">
 
 
 </head>
@@ -17,15 +20,18 @@
     
 
     <div class="root">
-        <h1>toDo 0.1</h1>
-        <div class="todo_item"> <!--Primer to do list-->
-            <span class="icono">☑️</span>  <!--Texto especial-->
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-            Odio eligendi aliquid ea dicta, doloremque, </p> <!--Descripción-->
-            <span class="icono2">X</span>  <!--Texto especial-->
-        </div>
+        <h1 class="titulo" id="titulo">ToDo 0.1</h1>
+
+        <main class="todo_list">
+            <!--Todas las tareas-->
+        </main>
+
+        <div class="bt-todo" id="bt-todo">
+            <span>+</soan>
+            </div>
     </div>
 
 
+<script src="./js/index.js" type="module"></script>
 </body>
 </html>
