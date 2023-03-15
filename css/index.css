@@ -24,7 +24,7 @@
 
 .bt-todo {
     border: 0; /*recetear */
-    background-color: rgb(255, 153, 0);
+    background-color: rgb(238, 118, 97);
     width: 6rem;
     height: 6rem;
     border-radius: 100%;
@@ -46,5 +46,60 @@
     font-size: 5rem;
     font-weight: 600;
     color: #fff;
+}
+
+/*DISEÑO DE MODAL*/
+.modal{
+    width: 20%;
+    height: 14rem;
+    background-color: rgb(240, 188, 188);
+
+    position: absolute;
+    /*Si todo esta acer se pone en el centro*/
+    top:0; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 10px 5px 5px black;
+    margin: auto;
+    padding: 2rem;
+
+    cursor: pointer;
+    display: none; /*Existe pero se oculta la caja*/
     
+}
+
+.entrada{
+    padding: 2rem;
+    width: 100%;
+    height: 4rem;
+}
+
+.bt-tarea{
+    margin: auto;
+    margin-top: 1rem;
+    width: 50%;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.ekis{    
+    font-size: 200%;
+}
+
+/*******************************/
+.activar{
+    display: block;
+}
+
+.todo_item{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tachar{
+   text-decoration:line-through;
 }
