@@ -4,6 +4,7 @@ import { data_list } from "./data.js";
 let caja_todo_list = (document.querySelector(".todo_list"));
 
 imprimir_todos();/*Cargar_los_todos*/
+completar_tarea()
 
 
 function puente (){
